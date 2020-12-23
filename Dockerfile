@@ -1,3 +1,2 @@
 FROM golang:alpine
-RUN apk update &&                               \
-    apk add --no-cache ca-certificates git 
+RUN /bin/sh -c apk add --no-cache git 
